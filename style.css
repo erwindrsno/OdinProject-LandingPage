@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#logo{
+    width: 100px;
+}
+
+.list-container{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-one-header{
+    display: flex;
+    justify-content: space-between;
+}
