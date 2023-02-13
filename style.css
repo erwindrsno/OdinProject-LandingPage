@@ -1,60 +1,38 @@
-body{
-    margin: 0;
-    font-family: roboto;
-    display: flex;
-    flex-direction: column;
-}
-
-.section-one{
-    background-color: #1f2937;
-}
-
-#logo{
-    width: 100px;
-    margin-left: 20px;
-}
-
-.list-container{
-    display: flex;
-    gap: 60px;
-    list-style-type: none;
+*{
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    margin-right: 40px;
-    color: #f9faf8;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
 }
 
-.section-one-header{
+/* header - navbar */
+.header{
+    background-color: #1f2937;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-one-content{
+#logo{
+    width: 120px;
+    padding: 15px;
+}
+
+.list-container{
     display: flex;
-    justify-content: space-around;
-    flex: 1;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 100px;
 }
 
-#strawhat-pirates{
-    width: 700px;
-}
-
-#hero-main-text{
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
-
-#hero-secondary-text{
-    font-size: 18px;
-    font-weight: lighter;
+ul li{
     color: #e5e7eb;
+    font-family: roboto;
+    font-size: 24px;
 }
+/* header - navbar */
 
-#signup{
-    background-color: #3882f6;
-    color: white;
-    border-radius: 10px;
-}
