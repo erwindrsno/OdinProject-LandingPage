@@ -153,14 +153,14 @@ ul li {
 /* third section */
 
 /* fourth-section */
-.fourth-section{
+.fourth-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 40px;
 }
 
-.wrapper{
+.wrapper {
   background-color: #3882f6;
   padding: 40px 120px;
   align-items: center;
@@ -170,13 +170,13 @@ ul li {
   gap: 35px;
 }
 
-.fourth-flex-container{
+.fourth-flex-container {
   display: inline-flex;
   flex-direction: column;
   color: #e5e7eb;
 }
 
-.fourth-section .wrapper button{
+.fourth-section .wrapper button {
   background-color: #3882f6;
   font-weight: 600;
   color: #e5e7eb;
@@ -186,3 +186,14 @@ ul li {
 }
 /* fourth-section */
 
+/* footer */
+.footer {
+  background-color: #1f2937;
+}
+
+.text-wrapper {
+  color: #e5e7eb;
+  padding: 20px;
+  text-align: center;
+}
+/* footer */
